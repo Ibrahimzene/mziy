@@ -50,10 +50,8 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            GiHub{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
+            {" "}
+            <Image src="/images/github.png" alt="github Logo" width={50} height={50} />
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Finde mich in GitHub.
@@ -67,10 +65,8 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Linkedin{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
+            {" "}
+            <Image src="/images/linkedin.png" alt="github Logo" width={50} height={50} />
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Finde mich in Linkedin.
@@ -84,10 +80,8 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Xing{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
+            {" "}
+            <Image src="/images/xing.png" alt="github Logo" width={50} height={50} />
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Finde mich in Xing.
@@ -101,13 +95,11 @@ export default function Home() {
           rel="noopener noreferrer" */
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            E-mail{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
+            {" "}
+            <Image src="/images/fähigkeiten.png" alt="github Logo" width={150} height={100} />
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            mziy@top-email.net
+          Fähigkeiten und Fertigkeiten
           </p>
         </a>
       </div>
